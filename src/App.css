@@ -3,8 +3,15 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
+}
+
+.logo {
+  margin-top: 5rem;
+
+  position: relative;
+  left: 7rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -33,6 +40,16 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotateY(360deg);
   }
+}
+
+.navbar {
+  margin-bottom: 7rem;
+  background-color: #04617eca;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: center;
 }
